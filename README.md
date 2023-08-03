@@ -1,7 +1,7 @@
-# ForestUI
+# Forest Design
 
-[![NPM version](https://img.shields.io/npm/v/ForestUI.svg?style=flat)](https://npmjs.org/package/ForestUI)
-[![NPM downloads](http://img.shields.io/npm/dm/ForestUI.svg?style=flat)](https://npmjs.org/package/ForestUI)
+[![NPM version](https://img.shields.io/npm/v/forest-design.svg?style=flat)](https://npmjs.org/package/forest-design)
+[![NPM downloads](http://img.shields.io/npm/dm/forest-design.svg?style=flat)](https://npmjs.org/package/forest-design)
 
 A react library developed with dumi
 
@@ -37,4 +37,4 @@ $ pnpm run doctor
 
 ## LICENSE
 
-MIT
+Apache-2.0
