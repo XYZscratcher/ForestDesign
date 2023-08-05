@@ -2,7 +2,9 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  favicons: ['/logo.svg'],
   themeConfig: {
-    name: 'ForestUI',
+    name: 'Forest Design',
+    logo: '/logo.svg',
   },
 });

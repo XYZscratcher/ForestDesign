@@ -1,8 +1,8 @@
 ---
-title: ForestUI - 一款“原生态”的 React UI 组件库
+title: Forest Design - 一款“原生态”的 React UI 组件库
 hero:
-  title: ForestUI
-  description: 一款“原生态”的 React UI 组件库（不止是 LayUI for React）
+  title: Forest Design
+  description: 一款“原生态”的 React UI 组件库
   actions:
     - text: Get started
       link: /guide/
