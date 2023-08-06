@@ -24,9 +24,9 @@ var Button = function Button(props) {
     htmlType = _props$htmlType === void 0 ? 'button' : _props$htmlType,
     href = props.href,
     _props$round = props.round,
-    round = _props$round === void 0 ? "md" : _props$round,
+    round = _props$round === void 0 ? 'md' : _props$round,
     other = _objectWithoutProperties(props, _excluded);
-  var className = cx('btn', 'btn-' + type);
+  var className = cx('btn', 'btn-' + type, 'btn-round' + round);
   if (typeof href !== 'undefined') {
     return /*#__PURE__*/React.createElement("a", _extends({
       href: href,
