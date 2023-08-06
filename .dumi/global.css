@@ -1,0 +1,5 @@
+@media (width>767px) {
+  .dumi-default-hero-title {
+    font-size: 10rem !important;
+  }
+}
