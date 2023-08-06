@@ -11,7 +11,7 @@ interface ButtonProps {
   type?: 'primary' | 'secondary' | 'danger';
   htmlType?: 'button' | 'submit' | 'reset';
   //children?: React.ReactNode;
-  round?: string;
+  round?: 'none' | 'sm' | 'md' | 'lg' | 'full';
   href?: string;
 }
 /*const ButtonProps=z.object({
@@ -26,20 +26,20 @@ const Button: React.FC<ButtonProps & ButtonHTMLAttributes<any>> = (props) => {
     children,
     htmlType = 'button',
     href,
-    //round = "full",
+    round = 'md',
     ...other
   } = props;
-
+  const className = cx('btn', 'btn-' + type, 'btn-round' + round);
   if (typeof href !== 'undefined') {
     return (
-      <a href={href} className={cx('btn', 'btn-' + type)} {...other}>
+      <a href={href} className={className} {...other}>
         {children}
       </a>
     );
   }
   return (
     <button
-      className={cx('btn', 'btn-' + type)}
+      className={className}
       // eslint-disable-next-line react/button-has-type
       type={htmlType}
       {...other}
