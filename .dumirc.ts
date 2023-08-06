@@ -2,11 +2,11 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  base: 'ForestDesign',
-  publicPath: 'ForestDesign',
-  favicons: ['/logo.svg'],
+  base: '/ForestDesign/',
+  publicPath: '/ForestDesign/',
+  favicons: ['/ForestDesign/logo.svg'],
   themeConfig: {
     name: 'Forest Design',
-    logo: '/logo.svg',
+    logo: '/ForestDesign/logo.svg',
   },
 });

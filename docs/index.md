@@ -7,7 +7,7 @@ hero:
     - text: Get started
       link: /guide/
     - text: GitHub
-      link: /
+      link: https://github.com/XYZscratcher/ForestDesign
 features:
   - title: Hello
     emoji: 💎

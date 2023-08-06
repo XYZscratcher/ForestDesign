@@ -22,3 +22,16 @@ export default () => (
   </>
 );
 ```
+
+```jsx
+import { Button } from 'forest-design';
+export default () => (
+  <>
+    {['none', 'sm', 'lg', 'full'].map((r) => (
+      <Button type="primary" round={r}>
+        {r}
+      </Button>
+    ))}
+  </>
+);
+```

@@ -2,12 +2,23 @@
 @danger: darken(#ff1919, 10%);
 @success: hsl(137, 66%, 30%);
 @border: #d9d9d9;
+
+@none: 0px;
+@sm: 0.3rem;
+@lg: 0.8rem;
+@full: 100rem;
+
 .btn-type(@type) {
   &-@{type} {
     background-color: @@type;
     &:hover {
       background-color: lighten(@@type, 9%);
     }
+  }
+}
+.btn-round(@round) {
+  &-round-@{round} {
+    border-radius: @@round;
   }
 }
 .btn {
@@ -35,6 +46,11 @@
   .btn-type(primary);
   .btn-type(danger);
   .btn-type(success);
+
+  .btn-round(none);
+  .btn-round(sm);
+  .btn-round(lg);
+  .btn-round(full);
 
   &-secondary {
     color: #000;
