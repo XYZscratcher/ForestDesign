@@ -23,6 +23,8 @@ export default () => (
 );
 ```
 
+你可以通过`round`属性为按钮设置圆角：
+
 ```jsx
 import { Button } from 'forest-design';
 export default () => (
@@ -34,4 +36,11 @@ export default () => (
     ))}
   </>
 );
+```
+
+带链接的按钮：
+
+```jsx
+import { Button } from 'forest-design';
+export default () => <Button href="#">我是链接按钮</Button>;
 ```
